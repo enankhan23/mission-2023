@@ -7,7 +7,8 @@ h1 {
     font-size: 60px;
     margin: 0;
 }
-h2{
+
+h2 {
     font-size: 40px;
 }
 
@@ -17,7 +18,7 @@ body {
     margin: 0;
 }
 
-.header{
+.header {
     color: #024976;
 }
 
@@ -29,8 +30,9 @@ body {
     width: 80%;
 }
 
-.top-banner{
+.top-banner {
     display: flex;
+    flex-direction: row;
 }
 
 .half-width {
@@ -43,8 +45,8 @@ body {
     padding-top: 50px;
 }
 
-.side-border{
-    border-left: 7px solid ;
+.side-border {
+    border-left: 7px solid;
     border-image: linear-gradient(#024976, darkcyan);
     border-image-slice: 1;
 }
@@ -65,3 +67,27 @@ body {
     width: 90%;
 }
 
+#bg1 {
+    background-color: #d6eee9;
+}
+#bg2 {
+    background-color: #fff4d6;
+    
+}
+#bg3 {
+    background-color: #e2e6ff;
+}
+
+.flex-container {
+    
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 50px 0px;
+}
+.card{
+    width: 20%;
+    border-radius: 20px;
+    padding: 30px 50px;
+}
