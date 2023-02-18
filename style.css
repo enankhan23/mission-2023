@@ -6,10 +6,15 @@
 h1 {
     font-size: 60px;
     margin: 0;
+    padding-left: 30px;
+    
 }
 
 h2 {
     font-size: 40px;
+    
+    font-family: 'Manrope', sans-serif;
+    
 }
 
 body {
