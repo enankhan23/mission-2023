@@ -24,7 +24,7 @@ body {
 }
 
 .header {
-    color: #024976;
+    color: #024a7698;
 }
 
 .container {
@@ -52,7 +52,7 @@ body {
 
 .side-border {
     border-left: 7px solid;
-    border-image: linear-gradient(#024976, darkcyan);
+    border-image: linear-gradient(#024a7665, darkcyan);
     border-image-slice: 1;
 }
 
@@ -65,12 +65,46 @@ body {
     border-radius: 5px;
 }
 
+.link-button2 {
+    text-decoration: none;
+    background-color: darkcyan;
+    padding: 10px 20px;
+    color: aliceblue;
+    font-weight: bold;
+    border-radius: 5px;
+    line-height: 5.5;
+}
+
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 90%;
 }
+
+.second-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: url(/images/pictures/pattern.png);
+    background-position: bottom ;
+    background-repeat:no-repeat;
+}
+
+.second-box h2{
+    margin-top: 0;
+}
+.second-box img{
+    width: 100%;
+}
+.second-box .img-box{
+    width:40%;
+}
+
+.second-box .text-box{
+    width: 50%;
+}
+
 
 #bg1 {
     background-color: #d6eee9;
@@ -82,6 +116,7 @@ body {
 #bg3 {
     background-color: #e2e6ff;
 }
+
 
 .flex-container {
     
@@ -95,4 +130,17 @@ body {
     width: 20%;
     border-radius: 20px;
     padding: 30px 50px;
+}
+
+footer{
+    text-align: center;
+    padding: 10px 0px 20px;
+    background-color: #000;
+    color: #fff;
+    
+}
+
+footer h3{
+    font-family: 'Lobster Two', cursive;
+    font-size: 39px;
 }
